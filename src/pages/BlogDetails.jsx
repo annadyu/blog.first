@@ -8,10 +8,7 @@ const BlogDetails = () => {
     <div className="blog-details">
       <h2 className="details-title">{article.title}</h2>
       <h5 className="details-author"> author: {article.author.username}</h5>
-      {/* <p className="details-description">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis beatae
-        eos reiciendis quae deleniti cumque maxime vel dolores iusto aspernatur.
-      </p> */}
+      <p className="etails description">{article.description}</p>
          <ReactMarkdown>{article.body}</ReactMarkdown>
     </div>
   );

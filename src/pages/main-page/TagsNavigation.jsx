@@ -1,6 +1,6 @@
-const VideoNavigation = () => {
+const TagsNavigation = () => {
   return (
-    <div>
+    <div className="tags-container">
       <h1 className="tags-title">Popular tags</h1>
       <ul className="tags-nav">
         <li className="tag">one</li>
@@ -13,4 +13,4 @@ const VideoNavigation = () => {
   );
 };
 
-export default VideoNavigation;
+export default TagsNavigation;
